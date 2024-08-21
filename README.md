@@ -18,7 +18,7 @@ Create a new binary feature indicating whether the original value was missing. T
 #### 4.End of Distribution Imputation:
 Replace missing values with a value at the end of the distribution, such as a very high or very low value. This is useful for detecting the impact of extreme values.
   
-##Techniques to Handle Categorical Missing Values
+## Techniques to Handle Categorical Missing Values
 #### 1.Frequent Category Imputation:
 Replace missing values with the most frequent category (mode) in the categorical feature. This approach assumes that the most common category is a reasonable substitute for missing values.
 #### 2.Adding a Variable to Capture NaN:
