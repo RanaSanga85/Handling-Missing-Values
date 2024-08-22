@@ -7,7 +7,7 @@ Missing data is a common issue in real-world datasets and can significantly impa
 #### 1.Mean, Median, Mode Imputation:
 <li>Mean Imputation: Replace missing values with the mean of the observed values. Suitable for numerical data.
 <li>Median Imputation: Replace missing values with the median of the observed values. More robust to outliers than mean imputation.
-<li>Mode Imputation: Replace missing values with the most frequent value (mode). Useful for categorical data.  
+<li>Mode Imputation: Replace missing values with the most frequent value (mode). Useful for categorical data.</li>  
 #### 2.Random Sample Imputation:
 Replace missing values with random samples drawn from the observed values. This can add variability and preserve the distribution of the data.  
 #### 3.Capturing NaN Values with New Features:
