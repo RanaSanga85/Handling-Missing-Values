@@ -19,7 +19,7 @@ Create a new binary feature indicating whether the original value was missing. T
 Replace missing values with a value at the end of the distribution, such as a very high or very low value. This is useful for detecting the impact of extreme values.
   
 ## Techniques to Handle Categorical Missing Values
-<br> 1.Frequent Category Imputation:
+<br> 1.Frequent Category Imputation:</br>
 Replace missing values with the most frequent category (mode) in the categorical feature. This approach assumes that the most common category is a reasonable substitute for missing values.
 #### 2.Adding a Variable to Capture NaN:
 Create an additional binary variable indicating whether the original value was missing. This method captures the information about missingness and allows the model to learn if the absence of data is informative.
